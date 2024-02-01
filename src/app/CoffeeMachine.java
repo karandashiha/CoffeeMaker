@@ -12,7 +12,7 @@ public class CoffeeMachine {
     }
 
     public void makeDrink(int choice) {
-        Coffee coffee = null;
+        Coffee coffee;
 
         switch (choice) {
             case 1:
